@@ -13,11 +13,11 @@ My unique approach combines traditional coding expertise with the power of AI to
     social: {
         github: "https://github.com/ilyas-shoukat",
         linkedin: "https://linkedin.com/in/alexmorgan",
-        twitter: "https://twitter.com/ilyashanjra",
+        twitter: "https://twitter.com/FundayReal21805",
         dribbble: "https://dribbble.com/alexmorgan",
         instagram: "https://instagram.com/ilyas.hanjra",
-        facebook: "https://facebook.com/ilyas.hanjra",
-        messenger: "https://m.me/ilyas.hanjra",
+        facebook: "https://facebook.com/ilyas.hanjra.2025",
+        messenger: "https://m.me/ilyas.hanjra.2025",
     },
 }
 
