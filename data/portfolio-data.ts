@@ -15,6 +15,7 @@ My unique approach combines traditional coding expertise with the power of AI to
         linkedin: "https://linkedin.com/in/alexmorgan",
         twitter: "https://twitter.com/alexmorgan",
         dribbble: "https://dribbble.com/alexmorgan",
+        instagram: "https://instagram.com/ilyas.hanjra",
     },
 }
 
