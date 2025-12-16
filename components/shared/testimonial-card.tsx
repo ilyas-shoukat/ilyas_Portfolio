@@ -41,7 +41,7 @@ export function TestimonialCard({ testimonial, index, isActive = false }: Testim
 
                     {/* Content */}
                     <p className="text-foreground/90 mb-6 leading-relaxed">
-                        "{testimonial.content}"
+                        &quot;{testimonial.content}&quot;
                     </p>
 
                     {/* Rating */}

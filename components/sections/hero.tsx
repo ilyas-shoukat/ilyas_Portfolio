@@ -43,7 +43,7 @@ export function Hero() {
                         transition={{ duration: 0.8, delay: 0.2 }}
                         className="text-center lg:text-left order-2 lg:order-1"
                     >
-                        <p className="text-purple-400 text-lg mb-2 font-medium">Hello, I'm</p>
+                        <p className="text-purple-400 text-lg mb-2 font-medium">Hello, I&apos;m</p>
                         <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white leading-tight">
                             Ilyas
                             <br />
