@@ -2,7 +2,7 @@
 
 import Link from "next/link"
 import { motion } from "framer-motion"
-import { Github, Linkedin, Twitter, Dribbble, Heart, ArrowUp } from "lucide-react"
+import { Github, Linkedin, Twitter, Dribbble, Heart, ArrowUp, Facebook, MessageCircle, Instagram } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Separator } from "@/components/ui/separator"
 import { personalInfo, navLinks } from "@/data/portfolio-data"
@@ -12,6 +12,9 @@ const socialIcons = {
     linkedin: Linkedin,
     twitter: Twitter,
     dribbble: Dribbble,
+    instagram: Instagram,
+    facebook: Facebook,
+    messenger: MessageCircle,
 }
 
 export function Footer() {

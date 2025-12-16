@@ -4,7 +4,7 @@ import { useEffect, useState } from "react"
 import Link from "next/link"
 import Image from "next/image"
 import { motion } from "framer-motion"
-import { Linkedin, Github, Dribbble, Twitter, Download, Instagram } from "lucide-react"
+import { Linkedin, Github, Dribbble, Twitter, Download, Instagram, Facebook, MessageCircle } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { personalInfo } from "@/data/portfolio-data"
 
@@ -148,6 +148,28 @@ export function Hero() {
                             <Instagram className="h-5 w-5" />
                         </Link>
                     )}
+                    {personalInfo.social.facebook && (
+                        <Link
+                            href={personalInfo.social.facebook}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="p-3 rounded-lg bg-white/5 hover:bg-purple-500/20 text-white/60 hover:text-purple-400 transition-all duration-300 border border-white/10 hover:border-purple-500/30"
+                            aria-label="Facebook"
+                        >
+                            <Facebook className="h-5 w-5" />
+                        </Link>
+                    )}
+                    {personalInfo.social.messenger && (
+                        <Link
+                            href={personalInfo.social.messenger}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="p-3 rounded-lg bg-white/5 hover:bg-purple-500/20 text-white/60 hover:text-purple-400 transition-all duration-300 border border-white/10 hover:border-purple-500/30"
+                            aria-label="Messenger"
+                        >
+                            <MessageCircle className="h-5 w-5" />
+                        </Link>
+                    )}
                 </motion.div>
 
                 {/* Resume Button - Bottom Right */}
@@ -209,6 +231,28 @@ export function Hero() {
                             aria-label="Instagram"
                         >
                             <Instagram className="h-5 w-5" />
+                        </Link>
+                    )}
+                    {personalInfo.social.facebook && (
+                        <Link
+                            href={personalInfo.social.facebook}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="p-3 rounded-lg bg-white/5 text-white/60 hover:text-purple-400 transition-colors border border-white/10"
+                            aria-label="Facebook"
+                        >
+                            <Facebook className="h-5 w-5" />
+                        </Link>
+                    )}
+                    {personalInfo.social.messenger && (
+                        <Link
+                            href={personalInfo.social.messenger}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="p-3 rounded-lg bg-white/5 text-white/60 hover:text-purple-400 transition-colors border border-white/10"
+                            aria-label="Messenger"
+                        >
+                            <MessageCircle className="h-5 w-5" />
                         </Link>
                     )}
                 </motion.div>
