@@ -11,7 +11,7 @@ My unique approach combines traditional coding expertise with the power of AI to
     availability: "Available for freelance projects",
     resumeUrl: "/resume.pdf",
     social: {
-        github: "https://github.com/alexmorgan",
+        github: "https://github.com/ilyas-shoukat",
         linkedin: "https://linkedin.com/in/alexmorgan",
         twitter: "https://twitter.com/alexmorgan",
         dribbble: "https://dribbble.com/alexmorgan",
